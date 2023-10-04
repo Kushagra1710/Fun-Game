@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     @State private var options = ["Rock🪨       ", "   Paper📑  ", " Scissors✂️"].shuffled()
     
-    
     @State private var appAnswer = Int.random(in: 0...2)
     @State private var result = false
     @State private var player = 0
