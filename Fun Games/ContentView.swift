@@ -54,13 +54,13 @@ struct ContentView: View {
                                 Tapped(number)
                                 
                             }
-                            .background(.black)
-                            .font(.system(size: 40))
-                            .fontWeight(.black)
-                            .bold()
-                            .clipShape(Capsule())
-                            .foregroundColor(.mint)
-                            .shadow(radius:20)
+                    .background(.black)
+                    .font(.system(size: 40))
+                    .fontWeight(.black)
+                    .bold()
+                    .clipShape(Capsule())
+                    .foregroundColor(.mint)
+                    .shadow(radius:20)
                     }
                 Spacer()
                 }
