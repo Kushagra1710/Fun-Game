@@ -55,8 +55,6 @@ struct ContentView: View {
                                 Tapped(number)
                                 
                             }
-                            
-                            
                             .background(.black)
                             .font(.system(size: 40))
                             .fontWeight(.black)
@@ -64,10 +62,6 @@ struct ContentView: View {
                             .clipShape(Capsule())
                             .foregroundColor(.mint)
                             .shadow(radius:20)
-                            
-                            
-                        
-                        
                     }
                 Spacer()
                 }
